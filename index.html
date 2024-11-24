@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Parkinsans:wght@300..800&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>Carlos Na Floresta</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Carlos quer explorar uma floresta  que existe perto de sua vila após descobrir que ela é misteriosa, ao chegar na entrada da floresta, encontra dois caminhos, qual deles Carlos deve seguir?</p>
+            <button class="btn-proximo" data-proximo="1">Caminho Iluminado</button>
+            <button class="btn-proximo" data-proximo="2">Caminho Escuro</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Carlos escolhe o caminho iluminado e encontra uma arvore gigante com folhas bonitas, ao se aproximar dela, ouve uma voz misteriosa. O que ele faz?</p>
+            <button class="btn-proximo" data-proximo="3">pergunta para a voz sobre o segredo da floresta</button>
+            <button class="btn-proximo" data-proximo="4">ele fica com medo e desiste de explorar a floresta</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Carlos entra no caminho escuro e encontra uma caverna, com um caminho estreito cheio de morcegos, e acaba escutando um som estranho vindo do fundo da caverna</p>
+            <button class="btn-proximo" data-proximo="5">ele deve ir investigar o som?</button>
+            <button class="btn-proximo" data-proximo="6">ele deve sair da caverna</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>A voz misteriosa conta sobre o tesouro escondido na floresta. Indicando o caminho que ele deve seguir.</p>
+            <button class="btn-proximo" data-proximo="7">Ele encontra o tesouro</button>
+    </div>
+
+    <div class="passo" id="passo-4">
+        <img src="cenario.passo4.png" alt="">
+        <p>Carlos desiste de explorar a floresta e volta para a casa, pois estava com medo do que havia nela.</p>
+    </div>
+
+    <div class="passo" id="passo-5">
+            <p>Carlos escuta o som na saída da caverna e descobre que é uma voz misteriosa que estava falando onde estava o tesouro perdido.</p>
+            <button class="btn-proximo" data-proximo="7">ele encontra o tesouro</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+            <p>Carlos tenta sair da floresta mas acaba se perdendo.</p>
+            <button class="btn-proximo" data-proximo="8">sem querer, Carlos encontra o outro lado da caverna</button>
+    </div>
+
+    <div class="passo" id="passo-7">
+            <p>Carlos encontra o tesouro, mas a voz misteriosa não permitiu que ele saísse da floresta com o tesouro sem que ele fizesse um grande favor.</p>
+            <button class="btn-proximo" data-proximo="9">ele pergunta qual é o grande favor?</button>
+            <button class="btn-proximo" data-proximo="10">ele não aceita o pedido mas tenta fugir com o tesouro</button>
+    </div>
+
+    <div class="passo" id="passo-8">
+            <p>Carlos descobre uma voz misteriosa que revela sobre o  tesouro perdido, e descobre onde ela está</p>
+            <button class="btn-proximo" data-proximo="7">Ele encontra o tesouro</button>
+    </div>
+
+    <div class="passo" id="passo-9">
+            <p>a voz diz: encontre o restante desse tesouro e deixe perto daquela represa, são 6 colares, 3 brincos de ouro, e outras 7 jóias, se não encontrar, coisas ruins irão acontecer.</p>
+            <button class="btn-proximo" data-proximo="11">Carlos encontra as jóias</button>
+    </div>
+
+    <div class="passo" id="passo-10">
+            <p>Carlos fica perdido na floresta por mais de 5 dias.</p>
+            <button class="btn-proximo" data-proximo="12">ele vai procurar comida</button>
+    </div>
+
+    <div class="passo" id="passo-11">
+            <p>Carlos deixa as jóias perdidas perto da represa e leva o tesouro para a casa</p>
+    </div>
+
+    <div class="passo" id="passo-12">
+            <p>Ao procurar comida, a voz misteriosa volta a perguntar para ele sobre o favor e promete dizer onde fica a saída da floresta. Carlos aceita o pedido.</p>
+            <button class="btn-proximo" data-proximo="11">Carlos encontra as jóias</button>
+    </div>
+</main>
+        <script src="script.js"></script>
+</body>
+</html>
